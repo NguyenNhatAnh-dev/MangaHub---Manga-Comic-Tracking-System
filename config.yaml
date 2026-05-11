@@ -1,0 +1,14 @@
+server:
+  host: 0.0.0.0
+  http_port: 8080
+  tcp_port: 9090
+  udp_port: 9091
+  grpc_port: 9092
+  websocket_port: 9093
+
+database:
+  path: "./data/mangahub.db"
+
+auth:
+  jwt_secret: K#9mP2xQ7nL4vR8wT1yJ6uF3sE0dA5bC  
+  token_ttl_hours: 24
