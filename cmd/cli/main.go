@@ -23,11 +23,11 @@ import (
 )
 
 const (
-	defaultHTTPURL  = "http://192.168.100.128:8080"
-	defaultTCPAddr  = "192.168.100.128:9090"
-	defaultUDPAddr  = "192.168.100.128:9091"
-	defaultGRPCAddr = "192.168.100.128:9092"
-	defaultWSURL    = "ws://192.168.100.128:9093/ws"
+	defaultHTTPURL  = "http://10.238.30.205:8080"
+	defaultTCPAddr  = "10.238.30.205:9090"
+	defaultUDPAddr  = "10.238.30.205:9091"
+	defaultGRPCAddr = "10.238.30.205:9092"
+	defaultWSURL    = "ws://10.238.30.205:9093/ws"
 )
 
 type session struct {
